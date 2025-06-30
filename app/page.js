@@ -214,7 +214,7 @@ export default function Portfolio() {
     {
     name: "Download CV",
      icon: Download,
-    url: "/Cv.pdf", // ✅ Make sure this file exists in your /public folder
+    url: "/Mahnoor CV Resume.pdf.pdf", // ✅ Make sure this file exists in your /public folder
   },
   ];
 
