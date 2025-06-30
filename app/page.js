@@ -238,10 +238,10 @@ export default function Portfolio() {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-slate-100">
+    <div className="min-h-screen  bg-gradient-to-br from-slate-50 to-slate-100">
       {/* Header/Navigation */}
-      <header className="fixed top-0 w-full bg-white/90 backdrop-blur-lg z-50 border-b border-purple-100 shadow-sm">
-        <nav className="container mx-auto px-6 py-4">
+      <header className="fixed top-0 w-full  bg-white/90 backdrop-blur-lg z-50 border-b border-purple-100 shadow-sm">
+        <nav className="container mx-auto px-2 md:px-6 py-4">
           <div className="flex justify-between items-center">
             <div className="text-2xl font-bold bg-gradient-to-r from-purple-600 to-pink-600 bg-clip-text text-transparent">
               Mahnoor Mehboob
@@ -313,7 +313,7 @@ export default function Portfolio() {
       </header>
 
       {/* Hero Section */}
-      <section className="pt-24 pb-16 px-6 min-h-screen flex items-center">
+      <section className="pt-24 pb-16 px-2 md:px-6 min-h-screen flex items-center">
         <div className="container mx-auto">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             {/* Left Side - Content */}
@@ -491,7 +491,7 @@ export default function Portfolio() {
               <div className="space-y-4">
                 <div className="flex items-center space-x-3 text-slate-600">
                   <div className="w-2 h-2 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full"></div>
-                  <MapPin className="w-5 h-5 text-purple-600" />
+                  <MapPin className="w-4 h-4 md:w-5 md:h-5 text-purple-600" />
                   <span>Shahabad colony ferozepur road lahore</span>
                 </div>
                 <div className="flex items-center space-x-3 text-slate-600">
@@ -579,7 +579,7 @@ export default function Portfolio() {
                       alt={project.title}
                       width={300}
                       height={200}
-                      className="w-full h-48 object-cover transition-transform duration-300 hover:scale-110"
+                      className="w-full h-36 object-cover transition-transform duration-300 hover:scale-110"
                     />
                     <div
                       className={`absolute top-4 right-4 w-3 h-3 rounded-full ${dotClass} animate-pulse`}
